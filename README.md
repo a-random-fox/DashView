@@ -81,5 +81,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### 🔗 Links
 [Project Page](https://github.com/a-random-fox/DashView) ·  
-[PowerShell Gallery](#) *(Coming soon!)* ·  
+[PowerShell Gallery](https://www.powershellgallery.com/packages/DashView) ·  
 [Report Issues](https://github.com/a-random-fox/DashView/issues)
