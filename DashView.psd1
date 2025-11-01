@@ -15,7 +15,7 @@
             ProjectUri  = 'https://www.powershellgallery.com/packages/DashView'
             LicenseUri  = 'https://github.com/a-random-fox/DashView/blob/main/LICENSE'
             IconUri     = 'https://raw.githubusercontent.com/a-random-fox/DashView/main/assets/icon.png'
-            ReleaseNotes = 'Initial gallery release.'
+            ReleaseNotes = 'Fixed module export definitions so all DashView functions import correctly (v1.0.1).'
         }
     }
 }
