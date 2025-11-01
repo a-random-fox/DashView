@@ -1,9 +1,9 @@
 # ⚡ DashView
 
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/v/DashView.svg?style=for-the-badge&label=Gallery)](https://www.powershellgallery.com/packages/DashView)
-[![Downloads](https://img.shields.io/powershellgallery/dt/DashView.svg?style=for-the-badge&label=Downloads)](https://www.powershellgallery.com/packages/DashView)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-a--random--fox/DashView-lightgrey.svg?style=for-the-badge&logo=github)](https://github.com/a-random-fox/DashView)
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/v/DashView.svg?style=flat-square)](https://www.powershellgallery.com/packages/DashView)
+[![Downloads](https://img.shields.io/powershellgallery/dt/DashView.svg?style=flat-square)](https://www.powershellgallery.com/packages/DashView)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-a--random--fox/DashView-lightgrey.svg?style=flat-square&logo=github)](https://github.com/a-random-fox/DashView)
 
 A PowerShell dashboard that displays a system summary with animated typing and custom fonts, plus built-in tools for specialized system repair and cumulative Windows + application + module updates.
 
