@@ -1,0 +1,30 @@
+Installation Guide
+
+    Requirements
+	
+	- PowerShell 5.1 or later
+
+	- Internet access (for module/script installations like PSWindowsUpdate)
+
+	- Admin rights (recommended for font install + updates)
+
+Module Installation (Manual)
+
+	1. Unzip DashView.zip
+
+	2. Move the unzipped folder to your PowerShell Modules folder.
+
+		The path should look like:
+			C:\Users\<YourName>\Documents\PowerShell\Modules\DashView\
+
+	3. Import the module:
+
+		Import-Module DashView
+
+	4. Run one of the functions:
+
+	    Show-DashView           # Displays a system info and status overview
+	    Install-DashFont        # Installs and sets Terminus font
+	    Start-DashRepair        # Runs a repair to your system and network connection, gets you up-to-date
+	    Install-DashUpdates     # Updates Windows, apps, and PS modules
+	    Write-DashType 	    # Animated text output
