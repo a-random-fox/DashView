@@ -12,7 +12,7 @@
     PrivateData = @{
         PSData = @{
             Tags        = @('dashboard','system','updater','repair','font','typing','powershell','windows')
-            ProjectUri  = 'https://github.com/a-random-fox/DashView'
+            ProjectUri  = 'https://www.powershellgallery.com/packages/DashView'
             LicenseUri  = 'https://github.com/a-random-fox/DashView/blob/main/LICENSE'
             IconUri     = 'https://raw.githubusercontent.com/a-random-fox/DashView/main/assets/icon.png'
             ReleaseNotes = 'Initial gallery release.'
