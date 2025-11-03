@@ -42,7 +42,7 @@ Import-Module .\DashView\DashView.psd1 -Force
 | **Write-DashType** | Animates text output with a typing effect |
 | **Install-DashFont** | Installs and applies the Terminus font |
 | **Start-DashRepair** | Performs system and network repair routines |
-| **Install-DashUpdates** | Runs cumulative updates across Windows, applications, and modules |
+| **Install-DashUpdate** | Runs cumulative updates across Windows, applications, and modules |
 
 ---
 
@@ -55,7 +55,7 @@ Show-DashView
 Run a quick repair and update sequence:
 ```powershell
 Start-DashRepair
-Install-DashUpdates
+Install-DashUpdate
 ```
 
 Install the custom font:

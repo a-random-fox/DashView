@@ -26,5 +26,5 @@ Module Installation (Manual)
 	    Show-DashView           # Displays a system info and status overview
 	    Install-DashFont        # Installs and sets Terminus font
 	    Start-DashRepair        # Runs a repair to your system and network connection, gets you up-to-date
-	    Install-DashUpdates     # Updates Windows, apps, and PS modules
+	    Install-DashUpdate     # Updates Windows, apps, and PS modules
 	    Write-DashType 	    # Animated text output

@@ -4,7 +4,7 @@
 
 .DESCRIPTION
   Provides the user with information regarding the system, network, and DNS.
- 
+
 .EXAMPLE
   Show-DashView
   Displays your system summary with animated output.

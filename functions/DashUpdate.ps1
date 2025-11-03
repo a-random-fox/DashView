@@ -14,7 +14,7 @@
 #>
 
 
-function Install-DashUpdates {
+function Install-DashUpdate {
     $updates = winget upgrade
 
     if ($updates -match "No installed package found matching input criteria.") {
@@ -28,7 +28,7 @@ function Install-DashUpdates {
             Write-DashType "Failed to update application(s) via Winget." 50
         }
     }
-    
+
     Install-Module -Name PSWindowsUpdate -Force | Out-Null
     Import-Module PSWindowsUpdate -Force | Out-Null
 
@@ -38,7 +38,7 @@ function Install-DashUpdates {
         Write-DashType "Windows showing up-to-date." 50
     } else {
         try {
-            Install-WindowsUpdate -AcceptAll | Out-Null
+            Get-WindowsUpdate -Install -AcceptAll -IgnoreReboot | Out-Null
             Write-DashType "Windows updated." 50
         } catch {
             Write-DashType "Failed to update Windows." 50
